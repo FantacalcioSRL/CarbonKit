@@ -16,10 +16,10 @@ let package = Package(
         .target(
             name: "CarbonKit",
             path: "CarbonKit",
-            sources: [
-                "."
+            exclude: [
+                "Info.plist"
             ],
-            publicHeadersPath: ".",
+            publicHeadersPath: "."
         )
     ]
 )
