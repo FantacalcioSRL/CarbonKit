@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CarbonKit"
-  s.version      = "2.3.1"
+  s.version      = "3.1.0"
   s.summary      = "CarbonKit - iOS Components (Obj-C & Swift)"
 
   s.description  = "CarbonKit is an open source iOS library that includes powerful and beauty UI components."
 
-  s.homepage     = "https://github.com/ermalkaleci/CarbonKit#readme"
+  s.homepage     = "https://github.com/FantacalcioSRL/CarbonKit#readme"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -43,8 +43,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Ermal Kaleci" => "ermalkaleci@gmail.com" }
-  s.social_media_url   = "https://twitter.com/KaleciErmal"
+  s.authors            = "Ermal Kaleci", "Fantacalcio S.r.l."
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -53,7 +52,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -66,7 +65,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ermalkaleci/CarbonKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/FantacalcioSRL/CarbonKit.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

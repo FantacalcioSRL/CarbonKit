@@ -1,7 +1,9 @@
-![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/Resources/CarbonKit.jpg)
+![alt tag](Resources/CarbonKit.jpg)
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/CarbonKit.svg?style=flat)](https://cocoapods.org/pods/CarbonKit) [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/ermalkaleci/CarbonKit/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
+
+This is the fork maintained by Fantacalcio S.r.l. The original library is [ermalkaleci/CarbonKit](https://github.com/ermalkaleci/CarbonKit).
 
 **IMPORTANT NOTE**: Please don't submit issues for questions regarding your code. Only actual bugs or feature requests will be answered, all others will be closed without comment. In case of reporting a bug, please include a screenshot and the code to reproduce it.
 
@@ -14,22 +16,28 @@ CarbonKit includes:
 # Carthage
 Add following line into your Cartfile
 ```
-github "ermalkaleci/CarbonKit"
+github "FantacalcioSRL/CarbonKit"
 ```
 
 Run `carthage update`
 
 # CocoaPods
-CarbonKit is available on CocoaPods. Add to your Podfile:
+Add to your Podfile:
 ```
 use_frameworks!
-pod 'CarbonKit'
+pod 'CarbonKit', :git => 'https://github.com/FantacalcioSRL/CarbonKit', :tag => '3.1.0'
 ```
 Run `pod install`
 
+# Swift Package Manager
+Add the package to your `Package.swift` dependencies or via Xcode (File → Add Package Dependencies):
+```
+.package(url: "https://github.com/FantacalcioSRL/CarbonKit", from: "3.1.0")
+```
+
 # CarbonTabSwipeNavigation
 
-![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/Resources/CarbonTabSwipeNavigation.gif)
+![alt tag](Resources/CarbonTabSwipeNavigation.gif)
 
 # SAMPLE CODE
 
@@ -86,7 +94,7 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 
 # CarbonSwipeRefresh
 
-![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/Resources/CarbonSwipeRefresh.gif)
+![alt tag](Resources/CarbonSwipeRefresh.gif)
 
 # SAMPLE CODE
 ```objective-c
@@ -136,4 +144,4 @@ If you are using UITableViewController you must add the refreshControl into self
 
 
 # LICENSE
-[The MIT License (MIT)](https://github.com/ermalkaleci/CarbonKit/blob/master/LICENSE)
+[The MIT License (MIT)](LICENSE)
